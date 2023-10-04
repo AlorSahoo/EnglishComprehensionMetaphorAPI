@@ -3,9 +3,9 @@ from metaphor_python import Metaphor
 import numpy as np
 from numpy.linalg import norm
 
-openai.api_key = "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"
+openai.api_key = "OPEN_AI_API_KEY"
 
-metaphor = Metaphor(api_key="c48dc95c-d30f-4d5a-9337-d3e9867e4f87")
+metaphor = Metaphor(api_key="METAPHOR_API_KEY")
 
 topic = input("Tell me a very specific topic you are interested in (ex: potato farming practices): ")
 
